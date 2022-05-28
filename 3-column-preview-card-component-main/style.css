@@ -1,0 +1,61 @@
+*{
+    font-family: 'Questrial', sans-serif;
+    
+}
+#container{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:43em;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+
+}
+h1{
+    color: hsl(0, 0%, 95%);
+
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 2rem;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+
+.card{
+    border-radius: 10px;
+    height: 400px;
+    width: 250px;
+    padding: 30px;
+}
+#card1{
+    background-color: hsl(31, 77%, 52%);
+}
+#card2{
+    background-color: hsl(184, 100%, 22%);
+}
+#card3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    padding: 12px 20px;
+    font-size: 15px;
+    
+}
+#card1 button{
+    color: hsl(31, 77%, 52%);;
+}
+#card2 button{
+    color: hsl(184, 100%, 22%);
+}
+#card3 button{
+    color: hsl(179, 100%, 13%);
+}
